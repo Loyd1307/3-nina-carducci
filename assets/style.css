@@ -109,7 +109,7 @@ body {
 	color: #000
 }
 .nav-item .active-tag {
-	background-color: #BEB45A;
+	background-color: #BEB45A; /* modifié */
 }
 .item-column {
 	position: relative;
