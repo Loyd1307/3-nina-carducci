@@ -6,6 +6,17 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.quote__text {
+	font-size: 22px;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -101,15 +112,16 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #000;
+	background-color: #E5975F;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
 }
 .nav-item .active-tag {
-	background-color: #BEB45A; /* modifié */
+	background-color: #E5975F; /* modifié */
+	color: #000;
 }
 .item-column {
 	position: relative;
