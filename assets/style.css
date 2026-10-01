@@ -258,6 +258,23 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer {
+	margin-block: 2rem;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-container h3 {
+	padding-bottom: 1em;
+}
+
+.footer-container p {
+	margin: 0;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -367,4 +384,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
