@@ -55,7 +55,7 @@ h3 {
 
 #about {
 	display: flex;
-	background-color: #F6D2B8;
+	background-color: #ffaa6d;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
@@ -63,7 +63,7 @@ h3 {
 
 .picture.left::before {
 	content: ' ';
-	background-color: #E5975F;
+	background-color: #a14707;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -80,7 +80,32 @@ h3 {
 
 .picture img {
 	width: 100%;
-
+}
+#carouselPrev, #carouselNext {
+	background-color: hsl(0, 0%, 0%);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 24px;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+	text-align: center;
+}
+.visually-hidden {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
 }
 #about-me {
 	flex: 2
